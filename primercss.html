@@ -18,7 +18,8 @@
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bold;
                 margin: 5px;
-                margin-bottom: 8px;
+                margin-bottom: 10px;
+                text-align: center;
             }
             /* Selector de clase normal*/
             .normal {
@@ -26,17 +27,28 @@
                 font-size: 14px;
                 font-family: Arial, Helvetica, sans-serif;
                 margin: 5px;
-                padding: 2px;
             }
             /* Selector de clase destacada */
             .destacada {
                 color:#ffffff;
                 font-size: 16px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                border: 2px #ffffff;
+                padding: 18px;
+                border: 3px #ffffff;
                 background-color:#2c0053;
                 margin: 0 auto;
                 width: fit-content;
+            }
+            /* Texto a la derecha */
+            .right {
+                margin-right: 0;
+                margin-left: auto;
+                width: 100 px;
+            }
+            /* Texto centrado */
+            .center {
+                margin: 0 auto;
+                width: 50%;
             }
             /* Selector de id */
             #granada {
@@ -54,6 +66,12 @@
                 <p>La respuesta a la vida, el universo y todo lo demás es 42</p>
             </div>
             <p id="granada">Solo a 3 deberás contar. no contarás 2, si no es para llegar al 3. Descartado será el 4.</p>
+            <div class="right">
+                <p>Este texto debería aparecer a la derecha.</p>
+            </div>
+            <div class="center">
+                <p>Este texto debería aparecer centrado.</p>
+            </div>
         </div>
     </body>
 </html>
